@@ -1,10 +1,27 @@
+
 HEAD
 # Kiran-Coffee-Works--Softy-Sales
 Daily Sales Report of softy sales
 
-# Welcome to Your Miaoda Project
+# Kiran Coffee Works - Daily Sales Tracker
+
+A comprehensive daily sales tracking application for Kiran Coffee Works ice cream shop. Track daily operations, calculate costs and profits, and view monthly/yearly sales summaries with visual profit/loss graphs.
+
+## Features
+
+- **Daily Entry Management**: Record daily raw materials usage (milk, softy premix, coffee decoction, cups, spoons) and sales
+- **Automatic Calculations**: Real-time calculation of costs, revenue, and profit/loss
+- **Default Cost Settings**: Configure default unit costs that auto-fill in daily entries
+- **Monthly View**: View monthly summaries with profit/loss trends and detailed entries
+- **Yearly View**: Annual overview with month-by-month breakdown and visual graphs
+- **Visual Analytics**: Interactive profit/loss charts showing daily and monthly trends
+- **Delete Entries**: Remove entries with confirmation dialog
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+
 
 ## Project Info
+
+This application helps ice cream shop owners track their daily operations, monitor costs, and analyze profitability over time. All data is stored securely in Supabase for persistent access across devices.
 
 ## Project Directory
 
@@ -86,8 +103,6 @@ Alternatively, use the official installer: Visit the Node.js official website. D
 # Step 6: if step 5 failed, try this command to start the development server: npx vite --host 127.0.0.1
 ```
 
-### How to develop backend services?
 
-Configure environment variables and install relevant dependencies.If you need to use a database, please use the official version of Supabase.
 
 

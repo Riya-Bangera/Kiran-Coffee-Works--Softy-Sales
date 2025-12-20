@@ -1,4 +1,7 @@
-import SamplePage from './pages/SamplePage';
+import DashboardPage from './pages/DashboardPage';
+import MonthlyViewPage from './pages/MonthlyViewPage';
+import YearlyViewPage from './pages/YearlyViewPage';
+import SettingsPage from './pages/SettingsPage';
 import type { ReactNode } from 'react';
 
 interface RouteConfig {
@@ -10,9 +13,24 @@ interface RouteConfig {
 
 const routes: RouteConfig[] = [
   {
-    name: 'Sample Page',
+    name: 'Dashboard',
     path: '/',
-    element: <SamplePage />
+    element: <DashboardPage />
+  },
+  {
+    name: 'Monthly View',
+    path: '/monthly',
+    element: <MonthlyViewPage />
+  },
+  {
+    name: 'Yearly View',
+    path: '/yearly',
+    element: <YearlyViewPage />
+  },
+  {
+    name: 'Settings',
+    path: '/settings',
+    element: <SettingsPage />
   }
 ];
 
