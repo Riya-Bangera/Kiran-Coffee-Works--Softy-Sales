@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 
 HEAD
 # Kiran-Coffee-Works--Softy-Sales
 Daily Sales Report of softy sales
+=======
+# Welcome to Your Miaoda Project
+Miaoda Application Link URL
+    URL:https://medo.dev/projects/app-8cxue70l0oap
+>>>>>>> 0954e71 (initial commit)
 
 # Kiran Coffee Works - Daily Sales Tracker
 
